@@ -1,0 +1,137 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://oauth2.googleapis.com/token
+    body:
+      encoding: ASCII-8BIT
+      string: grant_type=authorization_code&code=4%2F1AX4XfWiET8i65iQyeUbrJLUBqIgUyAX45PbT5TKLmoTsc_Do35PjSbJonpQ&redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&client_id=581712267295-4bjmqi7je9shh3gjh6kpsb11gf1vrui8.apps.googleusercontent.com&client_secret=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
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Expires:
+      - Mon, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Date:
+      - Thu, 31 Mar 2022 20:38:44 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Origin
+      - Referer
+      - X-Origin
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "access_token": "ya29.A0ARrdaM_5Ae6M46jZCpiOMBBdqsSTX9MyOJC-V7sGmPCSGVk-Kcw5us_q9CgeeAIVmlCBNZXD3oLbKmNqwUCIAEPrHBe_PT9NenmAN6SMItlInbD4ZvXru112yhz9CB7HPVnGad-Lf_lWoBa7OUIjnO6MhTfL",
+          "expires_in": 3599,
+          "refresh_token": "1//0hIh0qnFABisSCgYIARAAGBESNwF-L9IrbaTooSrGWUYpMOpxXWLYYE5BWad2qx3NPAg3ZBIKi-zw7epuE2FTJnVKE_emeCYz8mQ",
+          "scope": "https://www.googleapis.com/auth/calendar https://www.googleapis.com/auth/userinfo.profile",
+          "token_type": "Bearer",
+          "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImNlYzEzZGViZjRiOTY0Nzk2ODM3MzYyMDUwODI0NjZjMTQ3OTdiZDAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI1ODE3MTIyNjcyOTUtNGJqbXFpN2plOXNoaDNnamg2a3BzYjExZ2YxdnJ1aTguYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI1ODE3MTIyNjcyOTUtNGJqbXFpN2plOXNoaDNnamg2a3BzYjExZ2YxdnJ1aTguYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTQwNTQ4Nzk5NDQ5NTMxOTkwMDYiLCJhdF9oYXNoIjoiMGswaWxDMFBHZ3JyRkg4bDRENU8yQSIsIm5hbWUiOiJEYW5pbG8gSm9zw6kgTmFzY2ltZW50byBkYSBTaWx2YSIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQU9oMTRHalJPVUNzUXBkZU9tWnpXNjM2ZmJCOHVaRjJkSWMzOHlMOVdDRDRfZz1zOTYtYyIsImdpdmVuX25hbWUiOiJEYW5pbG8iLCJmYW1pbHlfbmFtZSI6Ikpvc8OpIE5hc2NpbWVudG8gZGEgU2lsdmEiLCJsb2NhbGUiOiJwdC1CUiIsImlhdCI6MTY0ODc1OTEyNCwiZXhwIjoxNjQ4NzYyNzI0fQ.KT1iaoErkUxmQujCZQ091U5MDlZHvkQkNT-lGaUt_kL3XxGfAV2XBtKIONgwnPEGxHPWhRVzElYeXhK2JhX2Vi9YMdyNx1LZ3x4uRP3QBo089m9AEGtzHauclY99pq7OpQn1pJ8TQ-9UVdUQemuA4cSXEj9MJCe3MYd94sCBA-zN83Wg5-rINkpBgJvWrIxTpMZ6SPtYztlUvANDYD7dbJl-EXByt4TQd2SH5DaUWlBf3XR6zn9OQlg-ZT1jiR-oWzvl8H6men3hZ_4ffpgdpWxdBVq848Dk5loBJ4Emlvt1uklHUXXm0OFVt4yrMhVEltF55i8FJVPUZPJmGl7_Xw"
+        }
+  recorded_at: Thu, 31 Mar 2022 20:38:54 GMT
+- request:
+    method: get
+    uri: https://people.googleapis.com/v1/people/me?personFields=names,emailAddresses
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - unknown/0.0.0 google-apis-people_v1/0.27.0 Linux/5.13.13-1-MANJARO (gzip)
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip,deflate
+      Date:
+      - Thu, 31 Mar 2022 20:38:54 GMT
+      X-Goog-Api-Client:
+      - gl-ruby/3.0.2 gdcl/1.27.0
+      Authorization:
+      - Bearer ya29.A0ARrdaM_5Ae6M46jZCpiOMBBdqsSTX9MyOJC-V7sGmPCSGVk-Kcw5us_q9CgeeAIVmlCBNZXD3oLbKmNqwUCIAEPrHBe_PT9NenmAN6SMItlInbD4ZvXru112yhz9CB7HPVnGad-Lf_lWoBa7OUIjnO6MhTfL
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Vary:
+      - Origin
+      - Referer
+      - X-Origin
+      Content-Encoding:
+      - gzip
+      Date:
+      - Thu, 31 Mar 2022 20:38:44 GMT
+      Server:
+      - ESF
+      Cache-Control:
+      - private
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+          "resourceName": "people/114054879944953199006",
+          "etag": "%EgcBAgkuNz0+GgQBAgUHIgxIU2d2c2lCWmFkdz0=",
+          "names": [
+            {
+              "metadata": {
+                "primary": true,
+                "source": {
+                  "type": "PROFILE",
+                  "id": "114054879944953199006"
+                }
+              },
+              "displayName": "Danilo José Nascimento da Silva",
+              "familyName": "José Nascimento da Silva",
+              "givenName": "Danilo",
+              "displayNameLastFirst": "José Nascimento da Silva, Danilo",
+              "unstructuredName": "Danilo José Nascimento da Silva"
+            }
+          ]
+        }
+  recorded_at: Thu, 31 Mar 2022 20:38:54 GMT
+recorded_with: VCR 6.1.0
